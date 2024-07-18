@@ -29,7 +29,7 @@
   padding-right: 4rem;
 }
 .hero-btn button:first-child {
-  margin-right: 1rem;
+  margin-right: 10px;
 }
 .shadow-box, .shadow-box-down {
   padding: 1rem 1.6rem;
@@ -96,6 +96,19 @@
 .copyright{
   text-align: left;
 }
+
+.class-img-boxes {
+  flex-direction: column;
+}
+
+.class-box {
+  width: 98%;
+}
+.pricing-area{
+  grid-template-columns: 1fr;
+
+}
+
 }
 
 
@@ -157,7 +170,16 @@
 .calculate-box h2 {
   margin-bottom: 1rem;
 }
+.class-img-boxes {
+  flex-direction: column;
+}
 
+.class-box {
+  width: 85%;
+}
+.pricing-area{
+  grid-template-columns: repeat(2, 1fr);
+}
 
 }
 
