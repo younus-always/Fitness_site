@@ -122,6 +122,7 @@
 
   .copyright {
     text-align: left;
+    font-size: 15px;
   }
 
   .class-img-boxes {
@@ -137,6 +138,9 @@
     place-content: center;
     gap: 25px;
   }
+  .package-btn {
+    width: 50%;
+}
 
 }
 

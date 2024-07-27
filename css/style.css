@@ -444,7 +444,9 @@
       font-weight: 600;
     }
 
-    .class-title>span {
+    .class-title > span,
+    .habit-title > span, 
+    .team-title > span {
       color: var(--primary-color);
     }
 
@@ -507,6 +509,7 @@
       font-weight: 600;
       color: #fff;
       font-style: italic;
+      letter-spacing: 1px;
     }
 
     .class-img-boxes {
@@ -718,7 +721,7 @@
     }
 
     .footer-menu p {
-      margin-bottom: 1rem;
+      margin-bottom: 6px;
     }
 
     .footer-menu p span {
@@ -736,5 +739,19 @@
 
     .footer-list li:hover a {
       transform: translateX(10px);
+      color: var(--primary-color);
+    }
+    .social-icon{
+      margin-top: 1rem;
+    }
+    .social-icon a{
+      margin-left: 5px;
+    }
+
+    .social-icon a i{
+      font-size: 1.4rem;
+      transition: all .3s;
+    }
+    .social-icon a i:hover{
       color: var(--primary-color);
     }
