@@ -1,196 +1,241 @@
+/* ------------ Small Device ------------- */
+
 @media screen and (max-width: 576px) {
-  .container{
+  .container {
     max-width: 100%;
   }
-  nav{
+
+  nav {
     max-width: 100%;
   }
-  .menu-list{
+
+  .menu-list {
     display: none;
   }
-  .bar{
+
+  .bar {
     display: block;
   }
-  .hero-container{
+
+  .hero-container {
     flex-direction: column;
   }
-  .hero-left{
+
+  .hero-left {
     width: 100%;
     padding-top: 0px;
   }
-  .hero-right{
+
+  .hero-right {
     width: 100%;
     margin-top: 2rem;
   }
+
   .hero-title {
     font-size: 3rem;
-}
-.hero-subtitle {
-  padding-right: 4rem;
-}
-.hero-btn button:first-child {
-  margin-right: 10px;
-}
-.shadow-box, .shadow-box-down {
-  padding: 1rem 1.6rem;
-}
-.shadow-box {
-  top: 155px;
-}
-.shadow-box-down {
-  bottom: 85px;
-}
-.habit-container {
-  grid-template-columns: repeat(1, 1fr);
-}
-.run-box {
-  flex-direction: column;
-  padding-bottom: 1rem;
-}
-
-.run-box-left {
-  width: 100%;
-  text-align: center;
-}
-
-.run-box-right {
-  display: contents;
-  width: 100%;
-}
-.run-img-box {
-  width: 70%;
-}
-
-.bmiContent{
-  flex-direction: column;
-}
-.calculator-chart {
-  width: 100%;
-  padding-left: 0px;
-  margin-bottom: 2rem;
-}
-.calculate-box {
-  width: 100%;
-}
-.calculator-chart h2 {
-  margin-bottom: 1.5rem;
-}
-.calculate-box h2 {
-  margin-bottom: 1rem;
-}
-.team-container{
-  grid-template-columns: 1fr;
-}
-.footer-wrapper{
- flex-direction: column;
-}
-.footer-content{
-  width: 100%;
-  margin-bottom: 1rem;
-}
-.footer-menu{
-  width: 100%;
-  padding-left: 0px;
-  margin-bottom: 1rem;
-}
-.copyright{
-  text-align: left;
-}
-
-.class-img-boxes {
-  flex-direction: column;
-}
-
-.class-box {
-  width: 98%;
-}
-.pricing-area{
-  grid-template-columns: 1fr;
-
-}
-
-}
-
-
-
-
-@media screen and (min-width: 577px) and (max-width: 991px) {
-  nav{
-    max-width: 95%;
   }
-  .container{
-    max-width: 95%;
+
+  .hero-subtitle {
+    padding-right: 4rem;
   }
-  .hero-container{
+
+  .hero-btn button:first-child {
+    margin-right: 10px;
+  }
+
+  .shadow-box,
+  .shadow-box-down {
+    padding: 1rem 1.6rem;
+  }
+
+  .shadow-box {
+    top: 155px;
+  }
+
+  .shadow-box-down {
+    bottom: 85px;
+  }
+
+  .habit-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .run-box {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .run-box-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .run-box-right {
+    display: contents;
+    width: 100%;
+  }
+
+  .run-img-box {
+    width: 70%;
+  }
+
+  .bmiContent {
     flex-direction: column;
   }
-  .hero-left{
+
+  .calculator-chart {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 2rem;
+  }
+
+  .calculate-box {
     width: 100%;
   }
-  .hero-right{
-    width: 100%;
+
+  .calculator-chart h2 {
+    margin-bottom: 1.5rem;
   }
-  .shadow-box {
-    right: 40px;
-}
-.habit-container {
-  grid-template-columns: repeat(2, 1fr);
-}
-.run-box {
-  flex-direction: column;
-  padding-bottom: 1rem;
-}
 
-.run-box-left {
-  width: 100%;
-  text-align: center;
-}
+  .calculate-box h2 {
+    margin-bottom: 1rem;
+  }
 
-.run-box-right {
-  display: contents;
-  width: 100%;
-}
-.run-img-box img {
-  transform: translate(-160px, 100px) scale(3);
-}
-.bmiContent{
-  flex-direction: column;
-}
-.calculator-chart {
-  width: 100%;
-  padding-left: 0px;
-  margin-bottom: 2rem;
-}
-.calculate-box {
-  width: 100%;
-}
-.calculator-chart h2 {
-  margin-bottom: 1.5rem;
-}
-.calculate-box h2 {
-  margin-bottom: 1rem;
-}
-.class-img-boxes {
-  flex-direction: column;
-}
+  .team-container {
+    grid-template-columns: 1fr;
+  }
 
-.class-box {
-  width: 85%;
-}
-.pricing-area{
-  grid-template-columns: repeat(2, 1fr);
-}
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-menu {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .class-img-boxes {
+    flex-direction: column;
+  }
+
+  .class-box {
+    width: 98%;
+  }
+
+  .pricing-area {
+    grid-template-columns: 0.80fr;
+    place-content: center;
+    gap: 25px;
+  }
 
 }
 
 
+/* ------------- Tablet Device --------------- */
 
-
-@media screen and (min-width: 992px) and (max-width: 1100px) {
-  nav{
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  nav {
     max-width: 95%;
   }
-  .container{
+
+  .container {
+    max-width: 95%;
+  }
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+  }
+
+  .shadow-box {
+    right: 40px;
+  }
+
+  .habit-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .run-box {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .run-box-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .run-box-right {
+    display: contents;
+    width: 100%;
+  }
+
+  .run-img-box img {
+    transform: translate(-160px, 100px) scale(3);
+  }
+
+  .bmiContent {
+    flex-direction: column;
+  }
+
+  .calculator-chart {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 2rem;
+  }
+
+  .calculate-box {
+    width: 100%;
+  }
+
+  .calculator-chart h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .calculate-box h2 {
+    margin-bottom: 1rem;
+  }
+
+  .class-img-boxes {
+    flex-direction: column;
+  }
+
+  .class-box {
+    width: 85%;
+  }
+
+  .pricing-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* ------------ Large Device --------------- */
+
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  nav {
+    max-width: 95%;
+  }
+
+  .container {
     max-width: 95%;
   }
 }
