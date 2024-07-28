@@ -428,6 +428,10 @@
       padding: 10px;
       cursor: pointer;
     }
+    option{
+      background: #484848;
+    }
+
 
     /* ----------- Our classes ------------*/
     #classes {
@@ -750,8 +754,9 @@
 
     .social-icon a i{
       font-size: 1.4rem;
-      transition: all .3s;
+      transition: all .5s;
     }
     .social-icon a i:hover{
       color: var(--primary-color);
+      transform: rotate3d(1, 1, 1, 360deg);
     }
